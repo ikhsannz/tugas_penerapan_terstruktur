@@ -45,4 +45,10 @@ cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 			RWac[i][j]=Rac[i][j]*w[j]; cout <<RWac[i][j]<<" | ";
 		}cout <<endl;
 	}
+	// Hasil akhir
+	cout << "HASIL AKHIR	:"<<endl;
+	for(int i=0; i <3; i++){
+		cout <<"Hasil	"<<i+1<<"	=	"<<RWac[i][0] +RWac [i][1] +RWac[i][2] +RWac[i][3]+RWac[i][4]<<endl;
+	}
+	cout <<endl;
 }
