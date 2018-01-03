@@ -31,4 +31,10 @@ cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 			cout << Rac[i][j] << " | ";
 		}cout<<endl;
 	}
+	// Bobot W, Tampilkan Nilai
+	cout <<endl<< "BOBOT W : "<<endl;
+	double w[5]={5,3,4,4,2};
+	for(int i=0;i<5;i++){
+		cout << w[i]<<" | ";
+	}cout <<endl;
 }
